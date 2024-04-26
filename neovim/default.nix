@@ -87,7 +87,7 @@
   };
 
   xdg.configFile.nvim = {
-    source = ./nvim;
+    source = ~/etc/nixos/;
     recursive = true;
   };
 }

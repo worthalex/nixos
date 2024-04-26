@@ -67,7 +67,7 @@
   #  /etc/profiles/per-user/alex/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
-    EDITOR = "nixvim";
+    EDITOR = "neovim";
   };
 
   # Let Home Manager install and manage itself.
