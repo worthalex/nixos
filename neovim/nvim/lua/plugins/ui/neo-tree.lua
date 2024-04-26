@@ -1,0 +1,28 @@
+return {
+	-- {
+	-- 	"nvim-neo-tree/neo-tree.nvim",
+	-- 	branch = "v3.x",
+	-- 	cmd = "Neotree",
+	-- 	dependencies = {
+	-- 		"nvim-lua/plenary.nvim",
+	-- 		"nvim-tree/nvim-web-devicons",
+	-- 		"MunifTanjim/nui.nvim",
+	-- 		-- Optional image support in preview window: See `# Preview Mode` for more information
+	-- 		"3rd/image.nvim",
+	-- 	},
+	-- 	keys = {
+	-- 		{ "<leader>e", "<cmd>Neotree toggle<CR>", desc = "NeoTree" },
+	-- 	},
+	-- 	init = function()
+	-- 		if vim.fn.argc(-1) == 1 then
+	-- 			local stat = vim.uv.fs_stat(vim.fn.argv(0))
+	-- 			if stat and stat.type == "directory" then
+	-- 				require("neo-tree")
+	-- 			end
+	-- 		end
+	-- 	end,
+	-- 	opts = {
+	-- 		hijack_netrw_behavior = "open_default",
+	-- 	},
+	-- },
+}
